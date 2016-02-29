@@ -1,0 +1,17 @@
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tcsbox{
+	width: 600px;
+	height: 600px;
+	border:1px solid #000; 
+	margin: 0 auto;
+}
+.block{
+	width: 30px;
+	height: 30px;
+	background:#ccc;
+	float: left;
+}
