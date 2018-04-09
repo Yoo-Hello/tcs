@@ -15,12 +15,32 @@ body,h1,h2,h3,h4,h5,h6,p,ol,ul,li{
 	background:#ccc;
 	float: left;
 }
-.btn{
+.start{
 	width:100px;
 	margin:20px auto;
 	border:1px solid #333;
 	padding:10px 20px;
+	cursor: pointer;
+	display: block;
 }
-.btn p{
+.start p{
+	text-align: center;
+}
+.ing{
+	width:100px;
+	margin:20px auto;
+	border:1px solid #333;
+	padding:10px 20px;
+	cursor: pointer;
+	display: none;
+}
+.ing p{
+	text-align: center;
+}
+.score{
+	width:100px;
+	margin:0 auto;
+}
+.score p{
 	text-align: center;
 }
