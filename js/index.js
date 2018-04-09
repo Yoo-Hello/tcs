@@ -1,6 +1,8 @@
 $(function(){
 	var sheshen = [],data = {},foods = [],score=0,anima;
 	$('.start').on('click',function(){
+		score = 0;
+		$('.score p span').html(score);
 		sheshen=[{x:0,y:0},{x:0,y:1},{x:0,y:2}];
 		data={"0_0":true,"0_1":true,"0_2":true};
 		func();
@@ -18,7 +20,6 @@ $(function(){
 		changeDirection();
 		anima = setInterval(function(){move(39)},200);
 	}
-	var score = 0;
 	// 棋盘
 	var subject = function(){
 		var s='';
